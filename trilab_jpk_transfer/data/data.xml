@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+    <record id="settings_testing_key" model="ir.attachment">
+        <field name="datas" type="base64" file="trilab_jpk_transfer/examples/test_klucz_publiczny_do_szyfrowania.pem"/>
+        <field name="name">test_klucz_publiczny_do_szyfrowania.pem</field>
+        <field name="name">test_klucz_publiczny_do_szyfrowania.pem</field>
+    </record>
+
+    <record id="settings_test_obj" model="jpk.settings">
+        <field name="name">Środowisko testowe</field>
+        <field name="endpoint_url">https://test-e-dokumenty.mf.gov.pl</field>
+        <field name="JPK_MF_PUBLIC_KEY_ID" ref="settings_testing_key"/>
+    </record>
+
+    <record id="settings_production_key" model="ir.attachment">
+        <field name="datas" type="base64" file="trilab_jpk_transfer/examples/a255fa99a87bbc6994f29f66c26dfa4.pem"/>
+        <field name="name">klucz_publiczny_do_szyfrowania.pem</field>
+    </record>
+
+    <record id="settings_prod_obj" model="jpk.settings">
+        <field name="name">Środowisko produkcyjne</field>
+        <field name="endpoint_url">https://e-dokumenty.mf.gov.pl</field>
+        <field name="JPK_MF_PUBLIC_KEY_ID" ref="settings_production_key"/>
+    </record>
+
+    <function model="ir.default" name="set"
+              eval="('jpk.transfer', 'settings_id', ref('settings_prod_obj'))"/>
+
+    <record id="check_jpk_transfer_status_cron" model="ir.cron">
+        <field name="name">Check JPK Transfer Status</field>
+        <field name="model_id" ref="model_jpk_transfer"/>
+        <field name="state">code</field>
+        <field name="code">model.check_transfer_status_cron()</field>
+        <field name="user_id" ref="base.user_root"/>
+        <field name="interval_number">1</field>
+        <field name="interval_type">hours</field>
+        <field name="numbercall">-1</field>
+    </record>
+</odoo>

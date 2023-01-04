@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf8'?>
+<ns:JPK xmlns:ns="http://jpk.mf.gov.pl/wzor/2019/09/27/09271/" xmlns:def="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/">
+    <ns:Naglowek>
+        <ns:KodFormularza kodSystemowy="JPK_FA (3)" wersjaSchemy="1-0">JPK_FA</ns:KodFormularza>
+        <ns:WariantFormularza>3</ns:WariantFormularza>
+        <ns:CelZlozenia>1</ns:CelZlozenia>
+        <ns:DataWytworzeniaJPK>{{ wizard.get_create_date() }}</ns:DataWytworzeniaJPK>
+        <ns:DataOd>{{ wizard.get_date_from() }}</ns:DataOd>
+        <ns:DataDo>{{ wizard.get_date_to() }}</ns:DataDo>
+        <ns:KodUrzedu>{{ wizard.company_id.pl_tax_office_id.code }}</ns:KodUrzedu>
+    </ns:Naglowek>
+    <ns:Podmiot1>
+        <ns:IdentyfikatorPodmiotu>
+            <def:NIP>{{ wizard.company_id.partner_id.x_get_nip() }}</def:NIP>
+            <def:PelnaNazwa>{{ wizard.company_id.name }}</def:PelnaNazwa>
+        </ns:IdentyfikatorPodmiotu>
+        <ns:AdresPodmiotu>
+            <def:KodKraju>{{ wizard.company_id.country_id.code }}</def:KodKraju>
+            <def:Wojewodztwo>{{ wizard.company_id.state_id.name }}</def:Wojewodztwo>
+            <def:Powiat>{{ wizard.company_id.pl_county }}</def:Powiat>
+            <def:Gmina>{{ wizard.company_id.pl_community }}</def:Gmina>
+            <def:Ulica>{{ wizard.company_id.x_street_short }}</def:Ulica>
+            <def:NrDomu>{{ wizard.company_id.x_street_short_number }}</def:NrDomu>
+            <def:Miejscowosc>{{ wizard.company_id.city }}</def:Miejscowosc>
+            <def:KodPocztowy>{{ wizard.company_id.zip }}</def:KodPocztowy>
+        </ns:AdresPodmiotu>
+    </ns:Podmiot1>
+    {% for invoice in wizard.invoice_ids %}
+    <ns:Faktura>
+        <ns:KodWaluty>{{ invoice.currency_id.name }}</ns:KodWaluty>
+        <ns:P_1>{{ invoice.invoice_date }}</ns:P_1>
+        <ns:P_2A>{{ invoice.name }}</ns:P_2A>
+        <ns:P_3A>{{ invoice.partner_id.name }}</ns:P_3A>
+        {% if invoice.partner_id.x_get_full_address() %}
+        <ns:P_3B>{{ invoice.partner_id.x_get_full_address() }}</ns:P_3B>
+        {% endif %}
+        <ns:P_3C>{{ invoice.company_id.name }}</ns:P_3C>
+        <ns:P_3D>{{ invoice.company_id.partner_id.x_get_full_address() }}</ns:P_3D>
+        <ns:P_4A>{{ invoice.company_id.country_id.code }}</ns:P_4A>
+        <ns:P_4B>{{ invoice.company_id.partner_id.x_get_nip() }}</ns:P_4B>
+        {% if invoice.x_jpk_get_eu_code() %}
+        <ns:P_5A>{{ invoice.x_jpk_get_eu_code() }}</ns:P_5A>
+        {% endif %}
+        {% if invoice.partner_id.vat %}
+        <ns:P_5B>{{ invoice.partner_id.x_get_nip() }}</ns:P_5B>
+        {% endif %}
+        <ns:P_6>{{ invoice.x_invoice_sale_date or invoice.invoice_date }}</ns:P_6>
+        <ns:P_13_1>{{ invoice.x_get_jpk_net([22, 23]) }}</ns:P_13_1>
+        <ns:P_14_1>{{ invoice.x_get_jpk_tax([22, 23]) }}</ns:P_14_1>
+        {% if invoice.currency_id.name != 'PLN' %}
+        <ns:P_14_1W>{{ invoice.x_get_jpk_tax([22, 23], True) }}</ns:P_14_1W>
+        {% endif %}
+        <ns:P_13_2>{{ invoice.x_get_jpk_net([7, 8]) }}</ns:P_13_2>
+        <ns:P_14_2>{{ invoice.x_get_jpk_tax([7, 8]) }}</ns:P_14_2>
+        {% if invoice.currency_id.name != 'PLN' %}
+        <ns:P_14_2W>{{ invoice.x_get_jpk_tax([7, 8], True) }}</ns:P_14_2W>
+        {% endif %}
+        <ns:P_13_3>{{ invoice.x_get_jpk_net([5]) }}</ns:P_13_3>
+        <ns:P_14_3>{{ invoice.x_get_jpk_tax([5]) }}</ns:P_14_3>
+        {% if invoice.currency_id.name != 'PLN' %}
+        <ns:P_14_3W>{{ invoice.x_get_jpk_tax([5], True) }}</ns:P_14_3W>
+        {% endif %}
+        <ns:P_13_4>0.00</ns:P_13_4>
+        <ns:P_14_4>{{ invoice.x_get_jpk_tax([0]) }}</ns:P_14_4>
+        {% if invoice.currency_id.name != 'PLN' %}
+        <ns:P_14_4W>{{ invoice.x_get_jpk_tax([0], True) }}</ns:P_14_4W>
+        {% endif %}
+        <ns:P_13_5>0.00</ns:P_13_5>
+        <ns:P_13_6>{{ invoice.x_get_jpk_net([0]) }}</ns:P_13_6>
+        <ns:P_13_7>0.00</ns:P_13_7>
+        <ns:P_15>{{ '{:.2f}'.format(invoice.x_amount_total_jpk) }}</ns:P_15>
+        <ns:P_16>false</ns:P_16>
+        <ns:P_17>false</ns:P_17>
+        <ns:P_18>{{ 'true' if invoice.x_pl_vat_reverse_charge else 'false' }}</ns:P_18>
+        <ns:P_18A>{{ 'true' if invoice.x_pl_vat_mpp else 'false' }}</ns:P_18A>
+        <ns:P_19>false</ns:P_19>
+        <ns:P_20>false</ns:P_20>
+        <ns:P_21>false</ns:P_21>
+        <ns:P_22>false</ns:P_22>
+        <ns:P_23>false</ns:P_23>
+        <ns:P_106E_2>false</ns:P_106E_2>
+        <ns:P_106E_3>false</ns:P_106E_3>
+        <ns:RodzajFaktury>{{ 'VAT' if (invoice.move_type == 'out_invoice') else 'KOREKTA' }}</ns:RodzajFaktury>
+        {% if invoice.move_type == 'out_refund' %}
+        <ns:PrzyczynaKorekty>{{ invoice.name if (invoice.move_type == 'out_refund') else '' }}</ns:PrzyczynaKorekty>
+        <ns:NrFaKorygowanej>{{ invoice.refund_invoice_id.name or '' }}</ns:NrFaKorygowanej>
+        {% endif %}
+    </ns:Faktura>
+    {% endfor %}
+    <ns:FakturaCtrl>
+        <ns:LiczbaFaktur>{{ wizard.invoice_len }}</ns:LiczbaFaktur>
+        <ns:WartoscFaktur>{{ wizard.get_invoice_total_value() }}</ns:WartoscFaktur>
+    </ns:FakturaCtrl>
+    {% for line in wizard.invoice_line_ids %}
+    <ns:FakturaWiersz>
+        <ns:P_2B>{{ line.move_id.name }}</ns:P_2B>
+        <ns:P_7>{{ line.product_id.name }}</ns:P_7>
+        <ns:P_8A>{{ line.product_uom_id.name }}</ns:P_8A>
+        <ns:P_8B>{{ line.quantity }}</ns:P_8B>
+        {% if not line.tax_ids[0].price_include %}
+        <ns:P_9A>{{ '{:.2f}'.format(line.x_price_unit_jpk) }}</ns:P_9A>
+        {% endif %}
+        {% if line.tax_ids[0].price_include %}
+        <ns:P_9B>{{ '{:.2f}'.format(line.x_price_unit_jpk) }}</ns:P_9B>
+        {% endif %}
+        <ns:P_11>{{ '{:.2f}'.format(line.x_price_subtotal_jpk) }}</ns:P_11>
+        <ns:P_11A>{{ '{:.2f}'.format(line.x_price_total_jpk) }}</ns:P_11A>
+        <ns:P_12>{{ line.tax_ids[0].x_get_amount_int() }}</ns:P_12>
+    </ns:FakturaWiersz>
+    {% endfor %}
+    <ns:FakturaWierszCtrl>
+        <ns:LiczbaWierszyFaktur>{{ wizard.invoice_line_len }}</ns:LiczbaWierszyFaktur>
+        <ns:WartoscWierszyFaktur>{{ wizard.get_invoice_line_total_value() }}</ns:WartoscWierszyFaktur>
+    </ns:FakturaWierszCtrl>
+</ns:JPK>

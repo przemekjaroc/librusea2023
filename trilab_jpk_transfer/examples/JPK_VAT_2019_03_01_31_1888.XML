@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:JPK
+ xsi:schemaLocation="http://jpk.mf.gov.pl/wzor/2017/11/13/1113/ Schemat_JPK_VAT(3)_v1-1.xsd"
+ xmlns:etd="http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2016/01/25/eD/DefinicjeTypy/"
+ xmlns:tns="http://jpk.mf.gov.pl/wzor/2017/11/13/1113/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+ <tns:Naglowek>
+  <tns:KodFormularza kodSystemowy="JPK_VAT (3)" wersjaSchemy="1-1">JPK_VAT</tns:KodFormularza>
+  <tns:WariantFormularza>3</tns:WariantFormularza>
+  <tns:CelZlozenia>0</tns:CelZlozenia>
+  <tns:DataWytworzeniaJPK>2019-04-24T15:54:01</tns:DataWytworzeniaJPK>
+  <tns:DataOd>2019-03-01</tns:DataOd>
+  <tns:DataDo>2019-03-31</tns:DataDo>
+  <tns:NazwaSystemu>System ERP</tns:NazwaSystemu>
+ </tns:Naglowek>
+ <tns:Podmiot1>
+   <tns:NIP>7122101616</tns:NIP>
+   <tns:PelnaNazwa>ABC  Sp. z o.o.</tns:PelnaNazwa>
+ </tns:Podmiot1>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>1</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6771789164</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WATER TECHNOLOGIES SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Puławska 2, 02-566 Warszawa</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900007</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>4013.81</tns:K_19>
+  <tns:K_20>923.18</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>2</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6291003353</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>SARPI DĄBROWA GÓRNICZA SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>KOKSOWNICZA 16, 42-523 DABROWA GÓRNICZA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900008</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>400.00</tns:K_19>
+  <tns:K_20>92.00</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>3</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6282074566</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC POŁUDNIE</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Zagórska 173, 42-600 Tarnowskie Góry</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900009</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>3649.00</tns:K_19>
+  <tns:K_20>839.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>4</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7430004205</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC PÓŁNOC SP. Z O.O</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>CIEPŁA 9, 86-105 ŚWIECIE</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900010</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>3649.00</tns:K_19>
+  <tns:K_20>839.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>5</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9220003465</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WSCHÓD SP. Z O.O..</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Hrubieszowska 173, 22-400 Zamość</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900011</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>3649.00</tns:K_19>
+  <tns:K_20>839.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>6</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7451806387</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC SZCZYTNO SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Solidarności 17, 12-100 Szczytno</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900012</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>3649.00</tns:K_19>
+  <tns:K_20>839.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>7</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9520016839</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC TERM S.A.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900013</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>3649.00</tns:K_19>
+  <tns:K_20>839.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>8</tns:LpSprzedazy>
+  <tns:NrKontrahenta>brak</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>PRACOWNICY ABC CUW</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 3, 61-016 Poznań</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2113201900003</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-08</tns:DataSprzedazy>
+  <tns:K_19>284.55</tns:K_19>
+  <tns:K_20>65.45</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>9</tns:LpSprzedazy>
+  <tns:NrKontrahenta>brak</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>PRACOWNICY ABC CUW</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 3, 61-016 Poznań</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2134201900003</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-13</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-08</tns:DataSprzedazy>
+  <tns:K_10>6380.00</tns:K_10>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>10</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7280018564</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA ŁÓDŹ SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>J.ANDRZEJEWSKIEJ 5, 92-550 ŁÓDŹ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900014</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>1601007.87</tns:K_19>
+  <tns:K_20>368231.82</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>11</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7770000755</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POZNAŃ SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 3, 61-016 POZNAŃ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900015</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>1412246.01</tns:K_19>
+  <tns:K_20>324816.59</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>12</tns:LpSprzedazy>
+  <tns:NrKontrahenta>5252318253</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC Industry Polska Sp. z o.o.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 7a, 61-017 POZNAŃ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900016</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>338921.43</tns:K_19>
+  <tns:K_20>77951.94</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>13</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9451647866</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POLSKA SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900017</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>1417755.20</tns:K_19>
+  <tns:K_20>326083.74</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>14</tns:LpSprzedazy>
+  <tns:NrKontrahenta>5250005656</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC  ENERGIA  WARSZAWA  SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02–566 Warszawa</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900018</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>2890395.81</tns:K_19>
+  <tns:K_20>664791.05</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>15</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7660006567</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WĄGROWIEC SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Jeżyka 52, 62-100 Wągrowiec</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900019</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>44191.80</tns:K_19>
+  <tns:K_20>10164.13</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>16</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9520016839</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC TERM S.A.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900020</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>198143.64</tns:K_19>
+  <tns:K_20>45573.04</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>17</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7821015503</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>EKO-ZEC Spółka z o.o.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 7A, 61-017 POZNAŃ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900021</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>141588.25</tns:K_19>
+  <tns:K_20>32565.30</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>18</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9220003465</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WSCHÓD SP. Z O.O..</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Hrubieszowska 173, 22-400 Zamość</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900022</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>323026.41</tns:K_19>
+  <tns:K_20>74296.09</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>19</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7451806387</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC SZCZYTNO SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Solidarności 17, 12-100 Szczytno</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900023</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>68125.96</tns:K_19>
+  <tns:K_20>15668.98</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>20</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7430004205</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC PÓŁNOC SP. Z O.O</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>CIEPŁA 9, 86-105 ŚWIECIE</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900024</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>290878.80</tns:K_19>
+  <tns:K_20>66902.12</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>21</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7792030634</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>PEC-REM  SP. Z O.O</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Panny Marii 3B, 61-108 Poznań</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900025</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>77151.64</tns:K_19>
+  <tns:K_20>17744.89</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>22</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6451905456</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>PWiK TARNOWSKIE GÓRY</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>OPOLSKA 51, 42-600 TARNOWSKIE GÓRY</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900026</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>160750.77</tns:K_19>
+  <tns:K_20>36972.66</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>23</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6282074566</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC POŁUDNIE</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Zagórska 173, 42-600 Tarnowskie Góry</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900027</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>284587.51</tns:K_19>
+  <tns:K_20>65455.14</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>24</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9451647866</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POLSKA SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900028</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-13</tns:DataSprzedazy>
+  <tns:K_19>535796.64</tns:K_19>
+  <tns:K_20>123233.23</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>25</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9451647866</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POLSKA SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900001</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>185750.00</tns:K_19>
+  <tns:K_20>42722.50</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>26</tns:LpSprzedazy>
+  <tns:NrKontrahenta>5252318253</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC Industry Polska Sp. z o.o.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 7a, 61-017 POZNAŃ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900002</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>17183.50</tns:K_19>
+  <tns:K_20>3952.21</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>27</tns:LpSprzedazy>
+  <tns:NrKontrahenta>5250005656</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC  ENERGIA  WARSZAWA  SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02–566 Warszawa</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900003</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>7501.00</tns:K_19>
+  <tns:K_20>1725.23</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>28</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9220003465</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WSCHÓD SP. Z O.O..</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Hrubieszowska 173, 22-400 Zamość</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900004</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>8141.80</tns:K_19>
+  <tns:K_20>1872.61</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>29</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7770000755</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POZNAŃ SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Energetyczna 3, 61-016 POZNAŃ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900005</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>10049.00</tns:K_19>
+  <tns:K_20>2311.27</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>30</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6282074566</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC POŁUDNIE</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Zagórska 173, 42-600 Tarnowskie Góry</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900006</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>2889.40</tns:K_19>
+  <tns:K_20>664.56</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>31</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9520016839</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC TERM S.A.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900007</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>1836.20</tns:K_19>
+  <tns:K_20>422.33</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>32</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7430004205</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC PÓŁNOC SP. Z O.O</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>CIEPŁA 9, 86-105 ŚWIECIE</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900008</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>2519.40</tns:K_19>
+  <tns:K_20>579.46</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>33</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7280018564</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA ŁÓDŹ SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>J.ANDRZEJEWSKIEJ 5, 92-550 ŁÓDŹ</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900009</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>3074.40</tns:K_19>
+  <tns:K_20>707.11</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>34</tns:LpSprzedazy>
+  <tns:NrKontrahenta>7792030634</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>PEC-REM  SP. Z O.O</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Panny Marii 3B, 61-108 Poznań</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900010</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>1167.20</tns:K_19>
+  <tns:K_20>268.46</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>35</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6291003353</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>SARPI DĄBROWA GÓRNICZA SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>KOKSOWNICZA 16, 42-523 DABROWA GÓRNICZA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900011</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-14</tns:DataSprzedazy>
+  <tns:K_19>2120.80</tns:K_19>
+  <tns:K_20>487.78</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>36</tns:LpSprzedazy>
+  <tns:NrKontrahenta>6771789164</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC WATER TECHNOLOGIES SP. Z O.O.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Puławska 2, 02-566 Warszawa</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900012</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-14</tns:DataSprzedazy>
+  <tns:K_19>3957.00</tns:K_19>
+  <tns:K_20>910.11</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>37</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9511782652</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC Zachód sp. z o.o.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>POWSTAŃCÓW ŚLĄSKICH 28/30, 53-333 WROCŁAW</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900013</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-14</tns:DataSprzedazy>
+  <tns:K_19>768.60</tns:K_19>
+  <tns:K_20>176.78</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>38</tns:LpSprzedazy>
+  <tns:NrKontrahenta>8992644933</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC Energetyka Lokalna Zachód </tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>POWSTAŃCÓW ŚLĄSKICH 28/30, 53-333 Wrocław</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900014</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-19</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-15</tns:DataSprzedazy>
+  <tns:K_19>583.60</tns:K_19>
+  <tns:K_20>134.23</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>39</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9451647866</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POLSKA SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2109201900017</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-04-10</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>1331.94</tns:K_19>
+  <tns:K_20>306.35</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>40</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9511782652</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC Zachód sp. z o.o.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>POWSTAŃCÓW ŚLĄSKICH 28/30, 53-333 WROCŁAW</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900029</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-04-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>141834.05</tns:K_19>
+  <tns:K_20>32621.81</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>41</tns:LpSprzedazy>
+  <tns:NrKontrahenta>9451647866</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>ABC ENERGIA POLSKA SA</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>UL. PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>2116201900031</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-04-15</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-29</tns:DataSprzedazy>
+  <tns:K_19>8189.27</tns:K_19>
+  <tns:K_20>1883.53</tns:K_20>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazWiersz>
+  <tns:LpSprzedazy>42</tns:LpSprzedazy>
+  <tns:NrKontrahenta>CHE-116.311.558 MWST</tns:NrKontrahenta>
+  <tns:NazwaKontrahenta>Lexmark International Technology S.A.</tns:NazwaKontrahenta>
+  <tns:AdresKontrahenta>Route de Pre-Bois 20, 1215 GENEVE</tns:AdresKontrahenta>
+  <tns:DowodSprzedazy>900700005335</tns:DowodSprzedazy>
+  <tns:DataWystawienia>2019-03-07</tns:DataWystawienia>
+  <tns:DataSprzedazy>2019-03-24</tns:DataSprzedazy>
+  <tns:K_29>127.94</tns:K_29>
+  <tns:K_30>29.43</tns:K_30>
+ </tns:SprzedazWiersz>
+ <tns:SprzedazCtrl>
+  <tns:LiczbaWierszySprzedazy>42</tns:LiczbaWierszySprzedazy>
+  <tns:PodatekNalezny>2347503.46</tns:PodatekNalezny>
+ </tns:SprzedazCtrl>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>1</tns:LpZakupu>
+  <tns:NrDostawcy>1182057531</tns:NrDostawcy>
+  <tns:NazwaDostawcy>BGGA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KRAŃCOWA 10/1, 02-493 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>1/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-05</tns:DataWplywu>
+  <tns:K_45>165.50</tns:K_45>
+  <tns:K_46>38.07</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>2</tns:LpZakupu>
+  <tns:NrDostawcy>7822182433</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Autostrada Eksploatacja SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>1020094</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-22</tns:DataWplywu>
+  <tns:K_45>8.14</tns:K_45>
+  <tns:K_46>1.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>3</tns:LpZakupu>
+  <tns:NrDostawcy>7822182433</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Autostrada Eksploatacja SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>2090343</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-22</tns:DataWplywu>
+  <tns:K_45>8.14</tns:K_45>
+  <tns:K_46>1.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>4</tns:LpZakupu>
+  <tns:NrDostawcy>7822182433</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Autostrada Eksploatacja SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>398537</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-22</tns:DataWplywu>
+  <tns:K_45>8.14</tns:K_45>
+  <tns:K_46>1.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>5</tns:LpZakupu>
+  <tns:NrDostawcy>6770066541</tns:NrDostawcy>
+  <tns:NazwaDostawcy>EDEN SPRINGS SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PERLA 10, 41-300 Dąbrowa Górnicza</tns:AdresDostawcy>
+  <tns:DowodZakupu>31/09003992</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-31</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-13</tns:DataWplywu>
+  <tns:K_45>3.00</tns:K_45>
+  <tns:K_46>0.69</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>6</tns:LpZakupu>
+  <tns:NrDostawcy>7811882931</tns:NrDostawcy>
+  <tns:NazwaDostawcy>VERNITY SP Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Polska 60, 60-595 Poznań</tns:AdresDostawcy>
+  <tns:DowodZakupu>FSV/62/02/2019/SP</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-11</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-26</tns:DataWplywu>
+  <tns:K_45>110.00</tns:K_45>
+  <tns:K_46>25.30</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>7</tns:LpZakupu>
+  <tns:NrDostawcy>9820380710</tns:NrDostawcy>
+  <tns:NazwaDostawcy>MK Laser </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Zbaraska 25/45, 93-225 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>FVS/67/01/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-22</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-26</tns:DataWplywu>
+  <tns:K_45>59.20</tns:K_45>
+  <tns:K_46>13.62</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>8</tns:LpZakupu>
+  <tns:NrDostawcy>5260204908</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONICA MINOLTA BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MUSZKIETERÓW 15, 02-273 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS/COK/18/164240</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-25</tns:DataWplywu>
+  <tns:K_45>26779.86</tns:K_45>
+  <tns:K_46>6159.37</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>9</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>0464041926</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-22</tns:DataWplywu>
+  <tns:K_45>4884.62</tns:K_45>
+  <tns:K_46>1123.49</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>10</tns:LpZakupu>
+  <tns:NrDostawcy>5262544258</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PKP Intercity SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>VB0016065625</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-28</tns:DataWplywu>
+  <tns:K_45>28.70</tns:K_45>
+  <tns:K_46>2.30</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>11</tns:LpZakupu>
+  <tns:NrDostawcy>7142047280</tns:NrDostawcy>
+  <tns:NazwaDostawcy>QNTF SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Łucka-Kolonia 128, 21-100 Lubartów</tns:AdresDostawcy>
+  <tns:DowodZakupu>480/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-15</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-15</tns:DataWplywu>
+  <tns:K_45>279.22</tns:K_45>
+  <tns:K_46>64.22</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>12</tns:LpZakupu>
+  <tns:NrDostawcy>8992367273</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KAUFLAND POLSKA MARKET SP. Z O.O. SP. K.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Armii Krajowej 47, 50-541 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>FA/1176/2019/4060</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-01</tns:DataWplywu>
+  <tns:K_45>1203.54</tns:K_45>
+  <tns:K_46>205.80</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>13</tns:LpZakupu>
+  <tns:NrDostawcy>7790001083</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CIRCLE K POLSKA  SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PUŁAWSKA 86, 02-603 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>00075819070270200</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-21</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-21</tns:DataWplywu>
+  <tns:K_45>21.95</tns:K_45>
+  <tns:K_46>5.05</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>14</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>1576K3/4381/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-19</tns:DataWplywu>
+  <tns:K_45>77.94</tns:K_45>
+  <tns:K_46>17.93</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>15</tns:LpZakupu>
+  <tns:NrDostawcy>6770066541</tns:NrDostawcy>
+  <tns:NazwaDostawcy>EDEN SPRINGS SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PERLA 10, 41-300 Dąbrowa Górnicza</tns:AdresDostawcy>
+  <tns:DowodZakupu>31/09038404</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-25</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-01</tns:DataWplywu>
+  <tns:K_45>188.90</tns:K_45>
+  <tns:K_46>43.45</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>16</tns:LpZakupu>
+  <tns:NrDostawcy>6572527467</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Niebezpiecznik.pl</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Armii Krajowej 12 lok. 64, 30-150 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>ZAL/2019/01/21</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-17</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-06</tns:DataWplywu>
+  <tns:K_45>3499.00</tns:K_45>
+  <tns:K_46>804.77</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>17</tns:LpZakupu>
+  <tns:NrDostawcy>5250007313</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POCZTA POLSKA SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Prokocimska 6, 30-949 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>F00999P0119SFAKAMH</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-07</tns:DataWplywu>
+  <tns:K_45>1447.05</tns:K_45>
+  <tns:K_46>332.82</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>18</tns:LpZakupu>
+  <tns:NrDostawcy>9820375962</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Practical Events </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Kolumny 155, 93-611 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>34/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-04</tns:DataWplywu>
+  <tns:K_45>1700.00</tns:K_45>
+  <tns:K_46>391.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>19</tns:LpZakupu>
+  <tns:NrDostawcy>1180008391</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ALTKOM AKADEMIA SPÓŁKA AKCYJNA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Chłodna 51, 00-867 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>865/2019/POZ</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-28</tns:DataWplywu>
+  <tns:K_45>3700.00</tns:K_45>
+  <tns:K_46>851.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>20</tns:LpZakupu>
+  <tns:NrDostawcy>5262544258</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PKP Intrcity SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>VB0016244186</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>42.59</tns:K_45>
+  <tns:K_46>3.41</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>21</tns:LpZakupu>
+  <tns:NrDostawcy>5262544258</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PKP INTERCITY S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>IC090246299</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>12.96</tns:K_45>
+  <tns:K_46>1.04</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>22</tns:LpZakupu>
+  <tns:NrDostawcy>6692484542</tns:NrDostawcy>
+  <tns:NazwaDostawcy>BC CLUB 6 SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Szczecińska 22, 75135 Koszalin</tns:AdresDostawcy>
+  <tns:DowodZakupu>166/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-28</tns:DataWplywu>
+  <tns:K_45>843.90</tns:K_45>
+  <tns:K_46>194.10</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>23</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>26K0/4061/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-23</tns:DataZakupu>
+  <tns:DataWplywu>2019-01-23</tns:DataWplywu>
+  <tns:K_45>73.93</tns:K_45>
+  <tns:K_46>17.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>24</tns:LpZakupu>
+  <tns:NrDostawcy>7792378768</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DOCUFIELD SP Z O.O. SP.KOMANDYTOWA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>POLSKA 114, 60-401 POZNAŃ</tns:AdresDostawcy>
+  <tns:DowodZakupu>2019/02/0031</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>400.00</tns:K_45>
+  <tns:K_46>92.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>25</tns:LpZakupu>
+  <tns:NrDostawcy>7010044758</tns:NrDostawcy>
+  <tns:NazwaDostawcy>MARKIT.PL</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Świętojerska 5/7, 00-236 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>359002883</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-31</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>1922.99</tns:K_45>
+  <tns:K_46>442.29</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>26</tns:LpZakupu>
+  <tns:NrDostawcy>7792378768</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DOCUFIELD SP Z O.O. SP.KOMANDYTOWA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>POLSKA 114, 60-401 POZNAŃ</tns:AdresDostawcy>
+  <tns:DowodZakupu>2019/02/0061</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>380.00</tns:K_45>
+  <tns:K_46>87.40</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>27</tns:LpZakupu>
+  <tns:NrDostawcy>5213614786</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ETRAVEL S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>WORONICZA 15, 02-625 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>2019/02/4438</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-02</tns:DataWplywu>
+  <tns:K_45>74.54</tns:K_45>
+  <tns:K_46>5.96</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>28</tns:LpZakupu>
+  <tns:NrDostawcy>5250007313</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POCZTA POLSKA SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Prokocimska 6, 30-949 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>F06904P0219SFAKAMH</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>998.05</tns:K_45>
+  <tns:K_46>229.55</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>29</tns:LpZakupu>
+  <tns:NrDostawcy>8270008116</tns:NrDostawcy>
+  <tns:NazwaDostawcy>INWAR</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>JULIANA TUWIMA 4, 98-200 Sieradz</tns:AdresDostawcy>
+  <tns:DowodZakupu>FA/21/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>7560.06</tns:K_45>
+  <tns:K_46>1738.81</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>30</tns:LpZakupu>
+  <tns:NrDostawcy>7781029308</tns:NrDostawcy>
+  <tns:NazwaDostawcy>HELMEX-EXHIBITIONS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Iwana Kryłowa 26, 60-195 Poznań</tns:AdresDostawcy>
+  <tns:DowodZakupu>08/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>1185.00</tns:K_45>
+  <tns:K_46>272.55</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>31</tns:LpZakupu>
+  <tns:NrDostawcy>5252219249</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DALLMAYR VENDING &amp; OFFICE</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>DŁUGOSZA 2-6, 51-162 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>19/PR/02/0850</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-01</tns:DataWplywu>
+  <tns:K_45>1951.80</tns:K_45>
+  <tns:K_46>448.91</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>32</tns:LpZakupu>
+  <tns:NrDostawcy>8792071639</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PROSAVE SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Polna 127, 87-100 TORUŃ</tns:AdresDostawcy>
+  <tns:DowodZakupu>(S)FS-4319/2019/S061</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>985.17</tns:K_45>
+  <tns:K_46>226.59</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>33</tns:LpZakupu>
+  <tns:NrDostawcy>6770066541</tns:NrDostawcy>
+  <tns:NazwaDostawcy>EDEN SPRINGS SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PERLA 10, 41-300 Dąbrowa Górnicza</tns:AdresDostawcy>
+  <tns:DowodZakupu>31/09048277</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>260.07</tns:K_45>
+  <tns:K_46>59.82</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>34</tns:LpZakupu>
+  <tns:NrDostawcy>6282074566</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ABC POŁUDNIE SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Zagórska  173, 42-600 Tarnowskie Góry</tns:AdresDostawcy>
+  <tns:DowodZakupu>5303201900030</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-08</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-08</tns:DataWplywu>
+  <tns:K_45>1693.50</tns:K_45>
+  <tns:K_46>389.51</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>35</tns:LpZakupu>
+  <tns:NrDostawcy>9471933500</tns:NrDostawcy>
+  <tns:NazwaDostawcy>RR Office sp. Z o.o.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Duńska 1G, 91-204 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>F/SK/0282/02/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-26</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-08</tns:DataWplywu>
+  <tns:K_45>1092.19</tns:K_45>
+  <tns:K_46>251.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>36</tns:LpZakupu>
+  <tns:NrDostawcy>5272541511</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ERECRUITMENT SOLUTIONS SP.Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PROSTA 68, 00-838 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FV-ERA/19/02/1271</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-08</tns:DataWplywu>
+  <tns:K_45>2469.00</tns:K_45>
+  <tns:K_46>567.87</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>37</tns:LpZakupu>
+  <tns:NrDostawcy>5213614786</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ETRAVEL S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>WORONICZA 15, 02-625 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FVB2019/02/6965</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-04</tns:DataWplywu>
+  <tns:K_45>404.89</tns:K_45>
+  <tns:K_46>32.39</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>38</tns:LpZakupu>
+  <tns:NrDostawcy>7792334966</tns:NrDostawcy>
+  <tns:NazwaDostawcy>FFI Sp. z o.o.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>900-lecia 36, 88-300 Mogilno</tns:AdresDostawcy>
+  <tns:DowodZakupu>19/000116</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-04</tns:DataWplywu>
+  <tns:K_45>955.00</tns:K_45>
+  <tns:K_46>219.66</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>39</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>0464064152</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-08</tns:DataWplywu>
+  <tns:K_45>3892.63</tns:K_45>
+  <tns:K_46>895.25</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>40</tns:LpZakupu>
+  <tns:NrDostawcy>8942598912</tns:NrDostawcy>
+  <tns:NazwaDostawcy>IMPEL CATERING Sp. z o.o. Sp. k.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>ŚLĘŻNA 118, 53-111 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>19JICT2119030779</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>360.00</tns:K_45>
+  <tns:K_46>28.80</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>41</tns:LpZakupu>
+  <tns:NrDostawcy>5221005607</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CANON POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>GOTTLIEBA DAIMLERA 2, 02-460 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>20005128</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-06</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>1268.45</tns:K_45>
+  <tns:K_46>291.74</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>42</tns:LpZakupu>
+  <tns:NrDostawcy>8341041777</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DRUKARNIA LASERTEXT  DARIUSZ WASILEWSKI</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PRASKA 5/7, 93-181 ŁÓDŹ</tns:AdresDostawcy>
+  <tns:DowodZakupu>FV/36/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>328.00</tns:K_45>
+  <tns:K_46>75.44</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>43</tns:LpZakupu>
+  <tns:NrDostawcy>6451905456</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PWIK SP. Z O. O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Opolska 51, 42-600 Tarnowskie Góry</tns:AdresDostawcy>
+  <tns:DowodZakupu>RDZ/12/03/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>1371.60</tns:K_45>
+  <tns:K_46>315.47</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>44</tns:LpZakupu>
+  <tns:NrDostawcy>8341041777</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DRUKARNIA LASERTEXT  DARIUSZ WASILEWSKI</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PRASKA 5/7, 93-181 ŁÓDŹ</tns:AdresDostawcy>
+  <tns:DowodZakupu>FV/1/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>1640.00</tns:K_45>
+  <tns:K_46>377.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>45</tns:LpZakupu>
+  <tns:NrDostawcy>8942598912</tns:NrDostawcy>
+  <tns:NazwaDostawcy>IMPEL CATERING Sp. z o.o. Sp. k.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>ŚLĘŻNA 118, 53-111 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>19JICT2119030780</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>340.00</tns:K_45>
+  <tns:K_46>27.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>46</tns:LpZakupu>
+  <tns:NrDostawcy>6912443003</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DGP CATERING PARTNER SPÓŁKA Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Najświętszej Marii Panny 14/1, 59-220 Legnica</tns:AdresDostawcy>
+  <tns:DowodZakupu>DC-RZ00011/02/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-06</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>153.40</tns:K_45>
+  <tns:K_46>12.27</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>47</tns:LpZakupu>
+  <tns:NrDostawcy>6770066541</tns:NrDostawcy>
+  <tns:NazwaDostawcy>EDEN SPRINGS SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PERLA 10, 41-300 Dąbrowa Górnicza</tns:AdresDostawcy>
+  <tns:DowodZakupu>31/09048607</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>3.00</tns:K_45>
+  <tns:K_46>0.69</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>48</tns:LpZakupu>
+  <tns:NrDostawcy>7830012119</tns:NrDostawcy>
+  <tns:NazwaDostawcy>H.P. CUKIERNIA HANNA PISKORSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Dworcowa 12, 62-050 MOSINA</tns:AdresDostawcy>
+  <tns:DowodZakupu>76/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>388.89</tns:K_45>
+  <tns:K_46>31.11</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>49</tns:LpZakupu>
+  <tns:NrDostawcy>5260204908</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONICA MINOLTA BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MUSZKIETERÓW 15, 02-273 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS/COK/18/173764</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-08</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>336.00</tns:K_45>
+  <tns:K_46>77.28</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>50</tns:LpZakupu>
+  <tns:NrDostawcy>5251572245</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ZRZESZENIE TRANSPORTU PRYW. M.ST.W-wy</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>AL. SOLIDARNOŚCI 104, 01-016 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>0703/SMS/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>659.70</tns:K_45>
+  <tns:K_46>52.78</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>51</tns:LpZakupu>
+  <tns:NrDostawcy>5221005607</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CANON POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>GOTTLIEBA DAIMLERA 2, 02-460 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>20005129</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-06</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>951.12</tns:K_45>
+  <tns:K_46>218.76</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>52</tns:LpZakupu>
+  <tns:NrDostawcy>5993215285</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CONREGO</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Ignacego Paderewskiego 40/6, 66-400 Gorzów Wielkopolski</tns:AdresDostawcy>
+  <tns:DowodZakupu>ABSL/2019/13</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-06</tns:DataWplywu>
+  <tns:K_45>2650.00</tns:K_45>
+  <tns:K_46>609.50</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>53</tns:LpZakupu>
+  <tns:NrDostawcy>9721187743</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Asystent 24</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Skarbka 36, 60-348 Poznań</tns:AdresDostawcy>
+  <tns:DowodZakupu>14/2/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-14</tns:DataWplywu>
+  <tns:K_45>11490.00</tns:K_45>
+  <tns:K_46>2642.70</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>54</tns:LpZakupu>
+  <tns:NrDostawcy>9451647866</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ABC ENERGIA POLSKA S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>ul. Puławska 2, 02-566 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1108201900021</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-14</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-14</tns:DataWplywu>
+  <tns:K_45>130879.46</tns:K_45>
+  <tns:K_46>30102.27</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>55</tns:LpZakupu>
+  <tns:NrDostawcy>5213614786</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ETRAVEL S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>WORONICZA 15, 02-625 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>2019/02/4439</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-02</tns:DataWplywu>
+  <tns:K_45>267.40</tns:K_45>
+  <tns:K_46>21.40</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>56</tns:LpZakupu>
+  <tns:NrDostawcy>5213033865</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ARVAL SERVICE LEASE POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>DOMANIEWSKA 49, 02-672 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>19006367</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>1736.00</tns:K_45>
+  <tns:K_46>399.28</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>57</tns:LpZakupu>
+  <tns:NrDostawcy>5250007313</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POCZTA POLSKA SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Prokocimska 6, 30-949 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>F06905P0219SFAKAMH</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>43766.25</tns:K_45>
+  <tns:K_46>10066.24</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>58</tns:LpZakupu>
+  <tns:NrDostawcy>5213033865</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ARVAL SERVICE LEASE POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>DOMANIEWSKA 49, 02-672 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>19006366</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>8890.73</tns:K_45>
+  <tns:K_46>2044.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>59</tns:LpZakupu>
+  <tns:NrDostawcy>9720969171</tns:NrDostawcy>
+  <tns:NazwaDostawcy>DME DYSTRYBUCJA MATERIAŁÓW</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Boranta 17, 61-608 Poznań</tns:AdresDostawcy>
+  <tns:DowodZakupu>190/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-12</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>1584.69</tns:K_45>
+  <tns:K_46>364.48</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>60</tns:LpZakupu>
+  <tns:NrDostawcy>5262610268</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KRAJOWA IZBA DORADCÓW PODATKOWYCH</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Bitwy Warszawskiej 1920 r. 3/310, 02-362 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>1913/10/2018/EW</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-12</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-12</tns:DataWplywu>
+  <tns:K_45>50.00</tns:K_45>
+  <tns:K_46>11.50</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>61</tns:LpZakupu>
+  <tns:NrDostawcy>1130155210</tns:NrDostawcy>
+  <tns:NazwaDostawcy>BONNIER BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Kijowska 1, 03-738 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>FaPB00002450/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-15</tns:DataWplywu>
+  <tns:K_45>40.65</tns:K_45>
+  <tns:K_46>9.35</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>62</tns:LpZakupu>
+  <tns:NrDostawcy>5250005656</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ABC ENERGIA WARSZAWA S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>PUŁAWSKA 2, 02-566 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1509201900024</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-18</tns:DataWplywu>
+  <tns:K_45>51230.06</tns:K_45>
+  <tns:K_46>11782.91</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>63</tns:LpZakupu>
+  <tns:NrDostawcy>5260204908</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONICA MINOLTA BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MUSZKIETERÓW 15, 02-273 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS/COK/18/170176</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-25</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-08</tns:DataWplywu>
+  <tns:K_45>40965.35</tns:K_45>
+  <tns:K_46>9422.03</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>64</tns:LpZakupu>
+  <tns:NrDostawcy>5262610268</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KRAJOWA IZBA DORADCÓW PODATKOWYCH</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Bitwy Warszawskiej 1920 r. 3/310, 02-362 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>542/04/2018/EW</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-12</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-12</tns:DataWplywu>
+  <tns:K_45>81.30</tns:K_45>
+  <tns:K_46>18.70</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>65</tns:LpZakupu>
+  <tns:NrDostawcy>5261040567</tns:NrDostawcy>
+  <tns:NazwaDostawcy>T-MOBILE POLSKA S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Marynarska 12, 02-674 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>0800507965</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>2225.19</tns:K_45>
+  <tns:K_46>511.79</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>66</tns:LpZakupu>
+  <tns:NrDostawcy>5260250995</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ORANGE POLSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Jerozolimskie 160, 02-326 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>11-115893-03191</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>2.00</tns:K_45>
+  <tns:K_46>0.46</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>67</tns:LpZakupu>
+  <tns:NrDostawcy>5260250995</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ORANGE POLSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Jerozolimskie 160, 02-326 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>11-115891-03192</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>512.01</tns:K_45>
+  <tns:K_46>117.76</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>68</tns:LpZakupu>
+  <tns:NrDostawcy>7262609881</tns:NrDostawcy>
+  <tns:NazwaDostawcy>RESPECT</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MAKOWA 19, 91-480 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>2/03/2019/EP</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-13</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-13</tns:DataWplywu>
+  <tns:K_45>1240.00</tns:K_45>
+  <tns:K_46>285.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>69</tns:LpZakupu>
+  <tns:NrDostawcy>7281141700</tns:NrDostawcy>
+  <tns:NazwaDostawcy>8 DZIEŃ TYGODNIA </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>WIĘCKOWSKIEGO 17 LOK. 5/5A, 90-721 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>39/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-26</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>1007.00</tns:K_45>
+  <tns:K_46>231.61</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>70</tns:LpZakupu>
+  <tns:NrDostawcy>5260250995</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ORANGE POLSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Jerozolimskie 160, 02-326 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>11-115890-03198</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>2803.19</tns:K_45>
+  <tns:K_46>644.73</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>71</tns:LpZakupu>
+  <tns:NrDostawcy>5260250995</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ORANGE POLSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Jerozolimskie 160, 02-326 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>11-115892-03197</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>1.00</tns:K_45>
+  <tns:K_46>0.23</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>72</tns:LpZakupu>
+  <tns:NrDostawcy>1132520369</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Koleje Mazowieckie</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>512906428731</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-08</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-19</tns:DataWplywu>
+  <tns:K_45>128.70</tns:K_45>
+  <tns:K_46>10.30</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>73</tns:LpZakupu>
+  <tns:NrDostawcy>5272501701</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PEH Warsaw Opco sp. z o.o.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>11837/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-16</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-19</tns:DataWplywu>
+  <tns:K_45>7.12</tns:K_45>
+  <tns:K_46>1.63</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>74</tns:LpZakupu>
+  <tns:NrDostawcy>5272501701</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PEH Warsaw Opco sp. z o.o.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>1187/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-16</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-19</tns:DataWplywu>
+  <tns:K_45>21.34</tns:K_45>
+  <tns:K_46>4.91</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>75</tns:LpZakupu>
+  <tns:NrDostawcy>5250007313</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POCZTA POLSKA SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Prokocimska 6, 30-949 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>F01000P0119SFAKAMH</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-07</tns:DataWplywu>
+  <tns:K_45>46139.15</tns:K_45>
+  <tns:K_46>10612.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>76</tns:LpZakupu>
+  <tns:NrDostawcy>7250012657</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TOWARZYSTWO TAKSÓWKARZY ŁÓDZKICH</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>TRAUGUTTA 25/815, 90-113 ŁÓDŹ</tns:AdresDostawcy>
+  <tns:DowodZakupu>19-FVSU/0101</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-14</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>1312.57</tns:K_45>
+  <tns:K_46>105.01</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>77</tns:LpZakupu>
+  <tns:NrDostawcy>5250007313</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POCZTA POLSKA SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Prokocimska 6, 30-949 Kraków</tns:AdresDostawcy>
+  <tns:DowodZakupu>K00337P0219SKOK0MH</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-26</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-27</tns:DataWplywu>
+  <tns:K_45>10.20</tns:K_45>
+  <tns:K_46>2.35</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>78</tns:LpZakupu>
+  <tns:NrDostawcy>9451647866</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ABC ENERGIA POLSKA S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>ul. Puławska 2, 02-566 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1109201900048</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>57287.07</tns:K_45>
+  <tns:K_46>13176.03</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>79</tns:LpZakupu>
+  <tns:NrDostawcy>5260204908</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONICA MINOLTA BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MUSZKIETERÓW 15, 02-273 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS/COK/18/180763</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-14</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-18</tns:DataWplywu>
+  <tns:K_45>430.00</tns:K_45>
+  <tns:K_46>98.90</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>80</tns:LpZakupu>
+  <tns:NrDostawcy>7822182433</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Autostrada Eksploatacja SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>1355053</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>8.14</tns:K_45>
+  <tns:K_46>1.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>81</tns:LpZakupu>
+  <tns:NrDostawcy>7822182433</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Autostrada Eksploatacja SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>84552</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>8.14</tns:K_45>
+  <tns:K_46>1.86</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>82</tns:LpZakupu>
+  <tns:NrDostawcy>5260250469</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Orbis SA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Brak</tns:AdresDostawcy>
+  <tns:DowodZakupu>25305/H525</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>24.39</tns:K_45>
+  <tns:K_46>5.61</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>83</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>2840K2/0540/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-12</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>35.58</tns:K_45>
+  <tns:K_46>8.18</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>84</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>2258K2/4382/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-14</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-14</tns:DataWplywu>
+  <tns:K_45>153.43</tns:K_45>
+  <tns:K_46>35.29</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>85</tns:LpZakupu>
+  <tns:NrDostawcy>7772192196</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KWIATY u Beaty</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Cieszkowskiego 9A, 62-020 Swarzędz</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS19/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-11</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-11</tns:DataWplywu>
+  <tns:K_45>98.28</tns:K_45>
+  <tns:K_46>8.72</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>86</tns:LpZakupu>
+  <tns:NrDostawcy>5261037737</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TESCO POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KAPELANKA 56, 30-347 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>1008072024</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-01-07</tns:DataWplywu>
+  <tns:K_45>302.60</tns:K_45>
+  <tns:K_46>37.64</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>87</tns:LpZakupu>
+  <tns:NrDostawcy>5261037737</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TESCO POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KAPELANKA 56, 30-347 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>1008072955</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-18</tns:DataZakupu>
+  <tns:DataWplywu>2019-01-18</tns:DataWplywu>
+  <tns:K_45>294.76</tns:K_45>
+  <tns:K_46>24.01</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>88</tns:LpZakupu>
+  <tns:NrDostawcy>5270103385</tns:NrDostawcy>
+  <tns:NazwaDostawcy>IKEA RETAIL</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Pabianicka 255, 93-457 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>F/329/2019/31630</tns:DowodZakupu>
+  <tns:DataZakupu>2019-01-22</tns:DataZakupu>
+  <tns:DataWplywu>2019-01-22</tns:DataWplywu>
+  <tns:K_45>5.69</tns:K_45>
+  <tns:K_46>1.31</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>89</tns:LpZakupu>
+  <tns:NrDostawcy>5261037737</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TESCO POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KAPELANKA 56, 30-347 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>1008074186</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-04</tns:DataWplywu>
+  <tns:K_45>225.89</tns:K_45>
+  <tns:K_46>46.39</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>90</tns:LpZakupu>
+  <tns:NrDostawcy>5261037737</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TESCO POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KAPELANKA 56, 30-347 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>1008075734</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-25</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-25</tns:DataWplywu>
+  <tns:K_45>213.23</tns:K_45>
+  <tns:K_46>43.45</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>91</tns:LpZakupu>
+  <tns:NrDostawcy>5261037737</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TESCO POLSKA SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KAPELANKA 56, 30-347 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>1008076907</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-11</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>178.03</tns:K_45>
+  <tns:K_46>19.63</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>92</tns:LpZakupu>
+  <tns:NrDostawcy>8992367273</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KAUFLAND POLSKA MARKET SP. Z O.O. SP. K.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Armii Krajowej 47, 50-541 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>FA/1879/2019/1163</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-19</tns:DataWplywu>
+  <tns:K_45>142.04</tns:K_45>
+  <tns:K_46>20.85</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>93</tns:LpZakupu>
+  <tns:NrDostawcy>7291945989</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Kwiaciarnia H.Skrzydlewska - Widzew</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Dziewiarska 21, 92-311 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>75DF/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>138.89</tns:K_45>
+  <tns:K_46>11.11</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>94</tns:LpZakupu>
+  <tns:NrDostawcy>7290100907</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Cukiernia &quot;Ptyś&quot; </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Zaolziańska 35A, 93-545 Łódź</tns:AdresDostawcy>
+  <tns:DowodZakupu>132/C/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>627.68</tns:K_45>
+  <tns:K_46>50.21</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>95</tns:LpZakupu>
+  <tns:NrDostawcy>5271037727</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLKOMTEL SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KONSTRUKTORSKA 4, 02-673 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1902280121502</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>70.00</tns:K_45>
+  <tns:K_46>16.10</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>96</tns:LpZakupu>
+  <tns:NrDostawcy>5271037727</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLKOMTEL SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KONSTRUKTORSKA 4, 02-673 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1902280134372</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-04</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-05</tns:DataWplywu>
+  <tns:K_45>4676.23</tns:K_45>
+  <tns:K_46>1075.53</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>97</tns:LpZakupu>
+  <tns:NrDostawcy>7250012657</tns:NrDostawcy>
+  <tns:NazwaDostawcy>TOWARZYSTWO TAKSÓWKARZY ŁÓDZKICH</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>TRAUGUTTA 25/815, 90-113 ŁÓDŹ</tns:AdresDostawcy>
+  <tns:DowodZakupu>19-FVSU/0102</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-14</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>1412.74</tns:K_45>
+  <tns:K_46>168.22</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>98</tns:LpZakupu>
+  <tns:NrDostawcy>5272535456</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CSI LEASING POLSKA SPÓŁKA Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>OKOPOWA 56/81, 01-042 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>20190291</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>182538.89</tns:K_45>
+  <tns:K_46>41983.94</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>99</tns:LpZakupu>
+  <tns:NrDostawcy>5272535456</tns:NrDostawcy>
+  <tns:NazwaDostawcy>CSI LEASING POLSKA SPÓŁKA Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>OKOPOWA 56/81, 01-042 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>20190281</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-11</tns:DataWplywu>
+  <tns:K_45>13673.22</tns:K_45>
+  <tns:K_46>3144.84</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>100</tns:LpZakupu>
+  <tns:NrDostawcy>5213614786</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ETRAVEL S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>WORONICZA 15, 02-625 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>2019/02/5240</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-07</tns:DataWplywu>
+  <tns:K_45>2354.04</tns:K_45>
+  <tns:K_46>188.32</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>101</tns:LpZakupu>
+  <tns:NrDostawcy>9542250979</tns:NrDostawcy>
+  <tns:NazwaDostawcy>IMPEL FACILITY SERVICES SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Ślężna 118, 53-111 Wrocław</tns:AdresDostawcy>
+  <tns:DowodZakupu>19JICL2110331504</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-05</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-12</tns:DataWplywu>
+  <tns:K_45>54.92</tns:K_45>
+  <tns:K_46>12.63</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>102</tns:LpZakupu>
+  <tns:NrDostawcy>5260204908</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONICA MINOLTA BUSINESS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>MUSZKIETERÓW 15, 02-273 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>FS/COK/18/181022</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>21972.49</tns:K_45>
+  <tns:K_46>5053.67</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>103</tns:LpZakupu>
+  <tns:NrDostawcy>1132690108</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KONSORCJUM GAMMA SP. Z O.O.  SP.K.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Mysłowicka 15, 01-612 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>111/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>5400.00</tns:K_45>
+  <tns:K_46>1242.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>104</tns:LpZakupu>
+  <tns:NrDostawcy>5222869712</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KWINTESENCJA SP. CYW. KATARZYNA WIDLICKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>RACŁAWICKA 146, 02-117 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>127/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-15</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>1080.00</tns:K_45>
+  <tns:K_46>86.40</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>105</tns:LpZakupu>
+  <tns:NrDostawcy>5222869712</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KWINTESENCJA SP. CYW. KATARZYNA WIDLICKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>RACŁAWICKA 146, 02-117 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>116/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-08</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-20</tns:DataWplywu>
+  <tns:K_45>990.00</tns:K_45>
+  <tns:K_46>79.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>106</tns:LpZakupu>
+  <tns:NrDostawcy>CHE-116.311.558 MWST</tns:NrDostawcy>
+  <tns:NazwaDostawcy>Lexmark International Technology S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Route de Pre-Bois 20, 1215 GENEVE</tns:AdresDostawcy>
+  <tns:DowodZakupu>900700005335</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-07</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-15</tns:DataWplywu>
+  <tns:K_45>127.94</tns:K_45>
+  <tns:K_46>29.43</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>107</tns:LpZakupu>
+  <tns:NrDostawcy>7822258395</tns:NrDostawcy>
+  <tns:NazwaDostawcy>SPEC KABLE</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>KATOWICKA 33/110, 61-131 POZNAŃ</tns:AdresDostawcy>
+  <tns:DowodZakupu>273/KT/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-08</tns:DataZakupu>
+  <tns:DataWplywu>2019-02-08</tns:DataWplywu>
+  <tns:K_45>79.15</tns:K_45>
+  <tns:K_46>18.20</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>108</tns:LpZakupu>
+  <tns:NrDostawcy>1132890014</tns:NrDostawcy>
+  <tns:NazwaDostawcy>HR BUSINESS CONSULTING</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>TWARDA 18, 00-105 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>14/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-24</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-24</tns:DataWplywu>
+  <tns:K_45>1520.00</tns:K_45>
+  <tns:K_46>349.60</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>109</tns:LpZakupu>
+  <tns:NrDostawcy>5470172149</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KELVIN SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>SOBIESKIEGO 413, 43-300 Bielsko-Biała</tns:AdresDostawcy>
+  <tns:DowodZakupu>19/03/0049</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>2800.00</tns:K_45>
+  <tns:K_46>644.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>110</tns:LpZakupu>
+  <tns:NrDostawcy>1132890014</tns:NrDostawcy>
+  <tns:NazwaDostawcy>HR BUSINESS CONSULTING</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>TWARDA 18, 00-105 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>13/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-24</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-24</tns:DataWplywu>
+  <tns:K_45>3500.00</tns:K_45>
+  <tns:K_46>805.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>111</tns:LpZakupu>
+  <tns:NrDostawcy>5260250995</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ORANGE POLSKA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Al. Jerozolimskie 160, 02-326 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>E0081786251/003/19</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-01</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-04</tns:DataWplywu>
+  <tns:K_45>628.44</tns:K_45>
+  <tns:K_46>144.54</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>112</tns:LpZakupu>
+  <tns:NrDostawcy>7740001454</tns:NrDostawcy>
+  <tns:NazwaDostawcy>POLSKI KONCERN NAFTOWY ORLEN S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>CHEMIKÓW  7, 09-411 PŁOCK</tns:AdresDostawcy>
+  <tns:DowodZakupu>0464091264</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>4154.47</tns:K_45>
+  <tns:K_46>955.55</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>113</tns:LpZakupu>
+  <tns:NrDostawcy>7781029308</tns:NrDostawcy>
+  <tns:NazwaDostawcy>HELMEX-EXHIBITIONS </tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Iwana Kryłowa 26, 60-195 Poznań</tns:AdresDostawcy>
+  <tns:DowodZakupu>29/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-21</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-21</tns:DataWplywu>
+  <tns:K_45>27.00</tns:K_45>
+  <tns:K_46>6.21</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>114</tns:LpZakupu>
+  <tns:NrDostawcy>5260205575</tns:NrDostawcy>
+  <tns:NazwaDostawcy>NETIA</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>POLECZKI 13, 02-822 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>5505894572/22/0</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-22</tns:DataWplywu>
+  <tns:K_45>81.26</tns:K_45>
+  <tns:K_46>18.69</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>115</tns:LpZakupu>
+  <tns:NrDostawcy>8270008116</tns:NrDostawcy>
+  <tns:NazwaDostawcy>INWAR</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>JULIANA TUWIMA 4, 98-200 Sieradz</tns:AdresDostawcy>
+  <tns:DowodZakupu>FA/108/02/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-02-28</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-26</tns:DataWplywu>
+  <tns:K_45>798.34</tns:K_45>
+  <tns:K_46>183.62</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>116</tns:LpZakupu>
+  <tns:NrDostawcy>1131963449</tns:NrDostawcy>
+  <tns:NazwaDostawcy>PRINT FACTORY</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Zorzy 12, 05-140 Serock</tns:AdresDostawcy>
+  <tns:DowodZakupu>320/ABC/03/2019</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-25</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-25</tns:DataWplywu>
+  <tns:K_45>5245.00</tns:K_45>
+  <tns:K_46>1206.35</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>117</tns:LpZakupu>
+  <tns:NrDostawcy>9451647866</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ABC ENERGIA POLSKA S.A.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>ul. Puławska 2, 02-566 WARSZAWA</tns:AdresDostawcy>
+  <tns:DowodZakupu>1108201900039</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-19</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-19</tns:DataWplywu>
+  <tns:K_45>9564.46</tns:K_45>
+  <tns:K_46>2199.82</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>118</tns:LpZakupu>
+  <tns:NrDostawcy>6792783310</tns:NrDostawcy>
+  <tns:NazwaDostawcy>ALTERKOM SP. Z O.O.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>BORKOWSKA 25B/U2, 30-438 KRAKÓW</tns:AdresDostawcy>
+  <tns:DowodZakupu>F/1/2019/03/42</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-22</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-25</tns:DataWplywu>
+  <tns:K_45>2500.00</tns:K_45>
+  <tns:K_46>575.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupWiersz>
+  <tns:LpZakupu>119</tns:LpZakupu>
+  <tns:NrDostawcy>5272615362</tns:NrDostawcy>
+  <tns:NazwaDostawcy>KPMG AUDYT SP. Z O.O.S.K.</tns:NazwaDostawcy>
+  <tns:AdresDostawcy>Chłodna 51 , 00-867 Warszawa</tns:AdresDostawcy>
+  <tns:DowodZakupu>769/DO/2019/S</tns:DowodZakupu>
+  <tns:DataZakupu>2019-03-20</tns:DataZakupu>
+  <tns:DataWplywu>2019-03-21</tns:DataWplywu>
+  <tns:K_45>7200.00</tns:K_45>
+  <tns:K_46>1656.00</tns:K_46>
+ </tns:ZakupWiersz>
+ <tns:ZakupCtrl>
+  <tns:LiczbaWierszyZakupow>119</tns:LiczbaWierszyZakupow>
+  <tns:PodatekNaliczony>173225.62</tns:PodatekNaliczony>
+ </tns:ZakupCtrl>
+</tns:JPK>
