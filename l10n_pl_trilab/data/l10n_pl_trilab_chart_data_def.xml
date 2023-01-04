@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <!-- Chart template defaults-->
+
+    <record id="pl_trilab_chart_template" model="account.chart.template">
+        <field name="property_account_receivable_id" ref="chart2000101"/>
+        <field name="property_account_payable_id" ref="chart2100101"/>
+        <field name="property_account_expense_categ_id" ref="chart73101"/>
+        <field name="property_account_income_categ_id" ref="chart73001"/>
+        <field name="expense_currency_exchange_account_id" ref="chart7510201"/>
+        <field name="income_currency_exchange_account_id" ref="chart7500201"/>
+        <field name="property_tax_payable_account_id" ref="chart22101"/>
+        <field name="property_tax_receivable_account_id" ref="chart22102"/>
+        <field name="default_pos_receivable_account_id" ref="chart2110101" />
+    </record>
+
+ 
+</data>
+</odoo>

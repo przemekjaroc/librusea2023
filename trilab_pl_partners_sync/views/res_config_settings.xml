@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="res_config_settings_view_form_inherit" model="ir.ui.view">
+            <field name="name">res_config_settings_view_form_inherit</field>
+            <field name="model">res.config.settings</field>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="priority">1000</field>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='contacts_settings']" position="inside">
+                    <div id="trilab_pl_partners_sync">
+                        <h2>Trilab Partners Sync (GUS/REGON/KRS/KRD/Vies)</h2>
+                        <div class="row mt16 o_settings_container">
+                            <div class="col-6 col-lg-6 o_setting_box" id="trilab_gus">
+                                <div class="o_setting_left_pane">
+                                    <field name="x_pl_enable_gus"/>
+                                </div>
+
+                                <div class="o_setting_right_pane">
+                                    <label string="Główny Urząd Statystyczny" for="x_pl_enable_gus"/>
+
+                                    <div class="content-group mt16" attrs="{'invisible': [('x_pl_enable_gus','=',False)]}">
+                                        <label class="col-lg-3" for="x_pl_gus_api_key" string="API Key"/>
+                                        <field name="x_pl_gus_api_key" password="1" attrs="{'required': [('x_pl_enable_gus','=',True)]}"/>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-lg-6 o_setting_box" id="trilab_krs">
+                                <div class="o_setting_left_pane">
+                                    <field name="x_pl_enable_krd"/>
+                                </div>
+
+                                <div class="o_setting_right_pane">
+                                    <label string="Krajowy Rejestr Długów" for="x_pl_enable_krd"/>
+
+                                    <div class="content-group mt16" attrs="{'invisible': [('x_pl_enable_krd','=',False)]}">
+                                            <label  class="col-lg-3" for="x_pl_krd_env" string="Environment"/>
+                                            <field name="x_pl_krd_env" attrs="{'required': [('x_pl_enable_krd','=',True)]}"/>
+                                            <label  class="col-lg-3" for="x_pl_krd_login" string="Login"/>
+                                            <field name="x_pl_krd_login" attrs="{'required': [('x_pl_enable_krd','=',True)]}"/>
+                                            <label  class="col-lg-3" for="x_pl_krd_pass" string="Password"/>
+                                            <field name="x_pl_krd_pass" password="1" attrs="{'required': [('x_pl_enable_krd','=',True)]}"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

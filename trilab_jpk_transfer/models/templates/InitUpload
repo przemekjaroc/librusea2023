@@ -1,0 +1,33 @@
+<InitUpload xmlns="http://e-dokumenty.mf.gov.pl">
+    <DocumentType>{{ transfer.jpk_type }}</DocumentType>
+    <Version>01.02.01.20160617</Version>
+    <EncryptionKey algorithm="RSA" mode="ECB" padding="PKCS#1" encoding="Base64">{{ encryption_key }}</EncryptionKey>
+    <DocumentList>
+        {% for document in transfer.document_ids %}
+        <Document>
+            <FormCode systemCode="{{ document.document_type_id.system_code }}" schemaVersion="{{ document.document_type_id.schema_version }}">{{ document.document_type_id.name }}</FormCode>
+            <FileName>{{ document.name }}</FileName>
+            <ContentLength>{{ document.original_file_id.size }}</ContentLength>
+            <HashValue algorithm="SHA-256" encoding="Base64">{{ document.original_file_id.hash }}</HashValue>
+            <FileSignatureList filesNumber="{{ document.file_part_ids|length }}">
+                <Packaging>
+                    <SplitZip type="split" mode="zip"/>
+                </Packaging>
+                <Encryption>
+                    <AES size="256" block="16" mode="CBC" padding="PKCS#7">
+                        <IV bytes="16" encoding="Base64">{{ document.iv }}</IV>
+                    </AES>
+                </Encryption>
+                {% for part in document.file_part_ids %}
+                <FileSignature>
+                    <OrdinalNumber>{{ part.part_number }}</OrdinalNumber>
+                    <FileName>{{ part.file_part_id.name }}</FileName>
+                    <ContentLength>{{ part.file_part_id.size }}</ContentLength>
+                    <HashValue algorithm="MD5" encoding="Base64">{{ part.file_part_id.hash }}</HashValue>
+                </FileSignature>
+                {% endfor %}
+            </FileSignatureList>
+        </Document>
+        {% endfor %}
+    </DocumentList>
+</InitUpload>

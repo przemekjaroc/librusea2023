@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_partner_form_pl_sync" model="ir.ui.view">
+        <field name="name">view_partner_form_pl_sync</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <sheet position="before">
+                <field name="x_pl_enable_gus" invisible="1"/>
+                <field name="x_pl_enable_krd" invisible="1"/>
+
+                <header attrs="{'invisible': [('id', '=', False)]}">
+                    <button name="x_pl_check_mf_nip" string="Check NIP" type="object" class="oe_highlight"
+                            context="{'no_confirm': True}"
+                            attrs="{'invisible': ['|', ('is_company', '=', False), ('x_pl_is_poland', '=', False)]}"/>
+                    <button name="x_pl_update_gus_action" string="Update Data from GUS" type="object"
+                            class="oe_highlight"
+                            context="{'no_confirm': True}"
+                            attrs="{'invisible': ['|', ('x_pl_enable_gus', '=', False), '|', ('is_company', '=', False), ('x_pl_is_poland', '=', False)]}"/>
+                    <button name="x_pl_check_krd" string="Check KRD" type="object" class="oe_highlight"
+                            attrs="{'invisible': ['|', ('x_pl_enable_krd', '=', False), ('x_pl_is_poland', '=', False)]}"/>
+                    <button name="x_pl_check_vies" string="Check VIES" type="object" class="oe_highlight"
+                            context="{'no_confirm': True}"
+                            attrs="{'invisible': ['|', ('is_company', '=', False), ('x_pl_is_europe', '=', False)]}"/>
+                    <button name="x_pl_get_bank_accounts" string="Get Accounts from Whitelist" type="object" class="oe_highlight"
+                            attrs="{'invisible': [('x_pl_is_poland', '=', False)]}"/>
+                </header>
+            </sheet>
+
+            <xpath expr="//div[hasclass('oe_title')]" position="attributes">
+                <attribute name="style">max-width: 90%;</attribute>
+            </xpath>
+
+            <field name="name" position="attributes">
+                <attribute name="placeholder">enter name, NIP or REGON</attribute>
+                <attribute name="style">display: block;</attribute>
+            </field>
+
+            <field name="vat" position="after">
+                <field name="regon"/>
+                <field name="krs"/>
+                <field name="pesel" attrs="{'invisible': [('is_company', '=', True)]}"/>
+
+                <field name="x_pl_nip_state" attrs="{'invisible': [('x_pl_nip_state', '=', False)]}" readonly="1"
+                       decoration-success="x_pl_nip_state in ['C', 'Z']"
+                       decoration-danger="x_pl_nip_state in ['I', 'D', 'X', 'B']"
+                       decoration-warning="x_pl_nip_state in ['N']" decoration-bf="True"/>
+                <field name="x_pl_nip_check_date" attrs="{'invisible': [('x_pl_nip_check_date', '=', False)]}"
+                       readonly="1"/>
+
+                <field name="x_pl_vies_state"
+                       attrs="{'invisible': ['|', ('x_pl_is_europe', '=', False), ('is_company', '=', False)], 'readonly': True}"
+                       decoration-success="x_pl_vies_state == 'valid'" decoration-danger="x_pl_vies_state != 'valid'"
+                       decoration-warning="x_pl_vies_state == 'no_info'" decoration-bf="True"/>
+                <field name="x_pl_vies_check_date" attrs="{'invisible': [('x_pl_vies_check_date', '=', False)]}"
+                       readonly="1"/>
+
+                <field name="x_pl_gus_update_date" attrs="{'invisible': [('x_pl_gus_update_date', '=', False)]}"
+                       readonly="1"/>
+
+                <!-- invisible fields -->
+                <field name="x_pl_is_poland" invisible="1" readonly="1"/>
+                <field name="x_pl_is_europe" invisible="1" readonly="1"/>
+            </field>
+
+            <field name="country_id" position="attributes">
+                <attribute name="attrs">{'readonly': [('parent_id', '!=', False)]}</attribute>
+            </field>
+            <field name="vat" position="attributes">
+                <attribute name="attrs">{'readonly': [('parent_id', '!=', False)]}</attribute>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_partner_tree_inherit" model="ir.ui.view">
+        <field name="name">view_partner_tree_inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <field name="email" position="after">
+                <field name="regon" optional="hide"/>
+                <field name="krs" optional="hide"/>
+                <field name="x_pl_nip_state" optional="hide" readonly="1"/>
+                <field name="x_pl_vies_state" optional="hide" readonly="1"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="check_nip_act" model="ir.actions.server">
+        <field name="name">Check NIP</field>
+        <field name="type">ir.actions.server</field>
+        <field name="state">code</field>
+        <field name="model_id" ref="model_res_partner"/>
+        <field name="binding_model_id" ref="model_res_partner"/>
+        <field name="code">action = records.x_pl_check_nip_action()</field>
+    </record>
+
+    <record id="check_vies_act" model="ir.actions.server">
+        <field name="name">Check VIES</field>
+        <field name="type">ir.actions.server</field>
+        <field name="state">code</field>
+        <field name="model_id" ref="model_res_partner"/>
+        <field name="binding_model_id" ref="model_res_partner"/>
+        <field name="code">action = records.x_pl_check_vies_action()</field>
+    </record>
+
+    <record id="check_gus_act" model="ir.actions.server">
+        <field name="name">Update data from GUS</field>
+        <field name="type">ir.actions.server</field>
+        <field name="state">code</field>
+        <field name="model_id" ref="model_res_partner"/>
+        <field name="binding_model_id" ref="model_res_partner"/>
+        <field name="code">action = records.x_pl_update_gus_action()</field>
+    </record>
+
+</odoo>

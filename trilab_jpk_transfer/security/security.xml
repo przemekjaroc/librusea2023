@@ -1,0 +1,40 @@
+<odoo>
+    <record id="jpk_transfer_user_rule" model="ir.rule">
+        <field name="name">JPK Transfer User Rule</field>
+        <field name="model_id" ref="model_jpk_transfer"/>
+        <field name="domain_force">[('create_uid', '=', user.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user')])]"/>
+    </record>
+    <record id="jpk_transfer_user_see_all_rule" model="ir.rule">
+        <field name="name">JPK Transfer User See All Rule</field>
+        <field name="model_id" ref="model_jpk_transfer"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user_see_all')])]"/>
+    </record>
+
+    <record id="jpk_document_user_rule" model="ir.rule">
+        <field name="name">JPK Document User Rule</field>
+        <field name="model_id" ref="model_jpk_document"/>
+        <field name="domain_force">[('transfer_id.create_uid', '=', user.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user')])]"/>
+    </record>
+    <record id="jpk_document_user_see_all_rule" model="ir.rule">
+        <field name="name">JPK Document User See All Rule</field>
+        <field name="model_id" ref="model_jpk_document"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user_see_all')])]"/>
+    </record>
+
+    <record id="jpk_file_part_user_rule" model="ir.rule">
+        <field name="name">JPK File Part User Rule</field>
+        <field name="model_id" ref="model_jpk_file_part"/>
+        <field name="domain_force">[('transfer_document_id.transfer_id.create_uid', '=', user.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user')])]"/>
+    </record>
+    <record id="jpk_file_part_user_see_all_rule" model="ir.rule">
+        <field name="name">JPK File Part User See All Rule</field>
+        <field name="model_id" ref="model_jpk_file_part"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+        <field name="groups" eval="[(6, 0, [ref('trilab_jpk_base.jpk_user_see_all')])]"/>
+    </record>
+</odoo>

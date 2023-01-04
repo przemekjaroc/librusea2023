@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="krd_result">
+        <body>
+            <strong>Wynik zapytania z Krajowego Rejestru Długów</strong>
+            <table>
+                <tr>
+                    <th width="500px">NIESPŁACONE ZOBOWIĄZANIA:</th>
+                    <th>&amp;nbsp;</th>
+                </tr>
+                <tr>
+                    <td>Ilość informacji gospodarczych</td>
+                    <td t-esc="Summary['InformationCount']" />
+                </tr>
+                <tr>
+                    <td>Łączna ilość zobowiązań negatywnych</td>
+                    <td t-esc="Summary['OInformationCount']" />
+                </tr>
+                <tr>
+                    <td>Ilość posłużeń sfałszowanym dokumentem</td>
+                    <td t-esc="Summary['DInformationCount']" />
+                </tr>
+                <tr>
+                    <td>Iość spraw dotyczących zobowiązaniań negatywnych</td>
+                    <td t-esc="Summary['DebtorsCount']" />
+                </tr>
+                <tr>
+                    <td>Ilość wierzycieli dłużnika</td>
+                    <td t-esc="Summary['CreditorsCount']" />
+                </tr>
+                <tr>
+                    <td>Łączna suma długów</td>
+                    <td>
+                        <span t-esc="Summary['TotalArrears']['Amount']" />
+                        <span t-esc="Summary['TotalArrears']['Currency']" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>SPŁACONE ZOBOWIĄZANIA</th>
+                    <th>&amp;nbsp;</th>
+                </tr>
+                <tr>
+                    <td>Ilość wierzycieli kontrahenta</td>
+                    <td t-esc="PositiveInformationSummary['ProvidersCount']" />
+                </tr>
+                <tr>
+                    <td>Łączna ilość zobowiązań pozytywnych</td>
+                    <td t-esc="PositiveInformationSummary['PaidObligationsCount']" />
+                </tr>
+                <tr>
+                    <td>Średnia wartość spłaconych zobowiązań</td>
+                    <td t-esc="PositiveInformationSummary['AveragePaidDebt']" />
+                </tr>
+                <tr>
+                    <td>Średnia ilość dni: termin płatnościa a wymagalności</td>
+                    <td t-esc="PositiveInformationSummary['AveragePaymentTimeInDays']" />
+                </tr>
+                <tr>
+                    <td>Suma spłaconych zobowiązań</td>
+                    <td t-esc="PositiveInformationSummary['SumPaidDebt']" />
+                </tr>
+            </table>
+        </body>
+    </template>
+</odoo>

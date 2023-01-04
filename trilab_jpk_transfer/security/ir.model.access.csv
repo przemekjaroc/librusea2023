@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_jpk_transfer_user,"JPK Transfer User Access",model_jpk_transfer,trilab_jpk_base.jpk_user,1,1,1,1
+access_jpk_document_user,"JPK Document User Access",model_jpk_document,trilab_jpk_base.jpk_user,1,1,1,1
+access_jpk_file_part_user,"JPK File Part User Access",model_jpk_file_part,trilab_jpk_base.jpk_user,1,1,1,1
+access_jpk_settings_user,"JPK Settings Access",model_jpk_settings,trilab_jpk_base.jpk_user,1,0,0,0
+access_jpk_settings_manager,"JPK Settings Access",model_jpk_settings,trilab_jpk_base.jpk_manager,1,1,1,0

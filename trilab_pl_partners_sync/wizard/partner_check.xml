@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="check_nip_gus_form" model="ir.ui.view">
+        <field name="name">check_nip_gus_form</field>
+        <field name="model">trilab.check.partner</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="errors_count" invisible="1"/>
+                <field name="mode" invisible="1"/>
+                <field name="check_ids" nolabel="1" create="0" options="{'no_create': True}"
+                       attrs="{'readonly': [('mode', '!=', 'gus')]}">
+                    <tree string="Updates" create="false" xeditable="top"
+                          decoration-warning="is_warning" decoration-error="is_error" options="{'no_create': True}">
+                        <field name="partner_id" invisible="1"/>
+                        <field name="is_error" invisible="1"/>
+                        <field name="is_warning" invisible="1"/>
+                        <field name="error_type" invisible="1"/>
+                        <field name="gus_selected_id" invisible="1"/>
+
+                        <field name="display_name" string="Name" readonly="1"/>
+                        <field name="phone" class="o_force_ltr" readonly="1" optional="show"/>
+                        <field name="email" readonly="1" optional="show"/>
+                        <field name="regon" readonly="1" attrs="{'column_invisible': [('parent.mode', '!=', 'gus')]}"/>
+                        <field name="krs" readonly="1" attrs="{'column_invisible': [('parent.mode', '!=', 'gus')]}"/>
+                        <field name="vat" readonly="1" optional="hide"/>
+                        <field name="x_pl_nip_state" readonly="1"
+                               attrs="{'column_invisible': [('parent.mode', '!=', 'nip')]}"/>
+                        <field name="x_pl_nip_check_date"
+                               attrs="{'invisible': [('x_pl_nip_check_date', '=', False)], 'column_invisible': [('parent.mode', '!=', 'nip')]}"
+                               readonly="1"/>
+                        <field name="x_pl_vies_state" attrs="{'column_invisible': [('parent.mode', '!=', 'vies')]}"/>
+                        <field name="x_pl_vies_check_date"
+                               attrs="{'invisible': [('x_pl_vies_check_date', '=', False)], 'column_invisible': [('parent.mode', '!=', 'vies')]}"
+                               readonly="1"/>
+                        <field name="x_pl_gus_update_date"
+                               attrs="{'invisible': [('x_pl_gus_update_date', '=', False)], 'column_invisible': [('parent.mode', '!=', 'gus')]}"
+                               readonly="1"/>
+                        <field name="user_id" readonly="1" optional="show" domain="[('share', '=', False)]"/>
+                        <field name="city" readonly="1" optional="show"/>
+                        <field name="state_id" readonly="1" optional="hide"/>
+                        <field name="category_id" readonly="1" optional="hide" widget="many2many_tags"
+                               options="{'color_field': 'color'}"/>
+                        <field name="company_id" readonly="1" groups="base.group_multi_company"/>
+                        <field name="error_message" string="Error" readonly="1"
+                               attrs="{'invisible': [('error_type', '=', False)], 'column_invisible': [('parent.errors_count', '=', 0)]}"/>
+                    </tree>
+                </field>
+                <footer>
+                    <button string="Close" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="trilab_check_partner_details_form" model="ir.ui.view">
+        <field name="name">gus choose partner</field>
+        <field name="model">trilab.check.partner.details</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Select GUS Company">
+                <field name="error_type" invisible="1"/>
+                <group attrs="{'invisible': [('error_type', 'not in', ['gus_update', 'gus_multiple'])]}">
+                    <field name="partner_id" invisible="1"/>
+                    <field name="gus_selected_id" domain="[('details_id', '=', id), ('partner_id', '=', partner_id)]"
+                           options="{'no_create_edit': True,'no_quick_create':True,'no_create':True,'no_open':True}"/>
+                </group>
+                <group string="Current Company Data">
+                    <group>
+                        <field name="vat" string="VAT"/>
+                        <field name="regon" string="REGON"/>
+                        <field name="krs" string="KRS/No. Evidence" attrs="{'invisible': [('krs', '=', False)]}"/>
+                    </group>
+
+                    <group>
+                        <field name="street" string="Street"/>
+                        <field name="street2" string="Add. addr"/>
+                        <field name="zip" string="Zip"/>
+                        <field name="city" string="City"/>
+                        <field name="state_id" string=""/>
+
+                        <field name="phone" attrs="{'invisible': [('phone', '=', False)]}"/>
+                        <field name="email" attrs="{'invisible': [('email', '=', False)]}"/>
+                    </group>
+                </group>
+
+                <group attrs="{'invisible': ['|', ('gus_selected_id', '=', False), ('error_type', 'not in', ['gus_update', 'gus_multiple'])]}"
+                       string="Updated Company Data">
+                    <group>
+                        <field name="x_vat" string="VAT"/>
+                        <field name="x_regon" string="REGON"/>
+                        <field name="x_krs" string="KRS/No. Evidence" attrs="{'invisible': [('x_krs', '=', False)]}"/>
+                    </group>
+
+                    <group>
+                        <field name="x_street" string="Street"/>
+                        <field name="x_street2" string="Add. addr"/>
+                        <field name="x_zip" string="Zip"/>
+                        <field name="x_city" string="City"/>
+                        <field name="x_state_id" string=""/>
+
+                        <field name="x_phone" attrs="{'invisible': [('x_phone', '=', False)]}"/>
+                        <field name="x_email" attrs="{'invisible': [('x_email', '=', False)]}"/>
+                    </group>
+                </group>
+            </form>
+            <footer>
+<!--                <button special="save" string="Save" class="oe_highlight"/>-->
+                <button name="update_partner" type="object" string="Save" class="oe_highlight"/>
+                <button string="Discard" special="cancel"/>
+            </footer>
+        </field>
+    </record>
+
+</odoo>

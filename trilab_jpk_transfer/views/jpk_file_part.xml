@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="jpk_file_part_tree" model="ir.ui.view">
+        <field name="name">jpk_file_part_tree</field>
+        <field name="model">jpk.file.part</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="file_part_id"/>
+                <field name="part_number"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="jpk_file_part_form" model="ir.ui.view">
+        <field name="name">jpk_file_part_form</field>
+        <field name="model">jpk.file.part</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+
+                    </group>
+                    <group>
+                        <field name="file_part_id" invisible="1"/>
+                        <field name="file_part_id_datas" widget="binary" filename="file_part_id_name"/>
+                        <field name="file_part_id_name" invisible="1"/>
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+</odoo>

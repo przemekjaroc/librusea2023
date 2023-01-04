@@ -1,0 +1,701 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* trilab_jpk_transfer
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-10 13:31+0000\n"
+"PO-Revision-Date: 2019-12-10 13:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_settings.py:0
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__endpoint_url
+#, python-format
+msgid "API Endpoint URL"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__active
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__active
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__active
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__active
+msgid "Active"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_form
+msgid ""
+"Are you sure you want to decline this transfer? This action cannot be "
+"undone."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model,name:trilab_jpk_transfer.model_ir_attachment
+msgid "Attachment"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__blob_name
+msgid "Blob Name"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.actions.server,name:trilab_jpk_transfer.check_jpk_transfer_status_cron_ir_actions_server
+#: model:ir.cron,cron_name:trilab_jpk_transfer.check_jpk_transfer_status_cron
+#: model:ir.cron,name:trilab_jpk_transfer.check_jpk_transfer_status_cron
+msgid "Check JPK Transfer Status"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "Check request status: %s"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "Check request status: [%s] %s"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__cloud_meta
+msgid "Cloud Meta"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__color
+msgid "Color"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__confirmation_id
+msgid "Confirmation"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__confirmation_id_datas
+msgid "Confirmation Data"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__confirmation_id_name
+msgid "Confirmation Data Filename"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__state__confirmed
+#, python-format
+msgid "Confirmed"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_form
+msgid "Create Transfer Request"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__create_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__create_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__create_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__create_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__create_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__create_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_form
+msgid "Decline transfer"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__state__declined
+#, python-format
+msgid "Declined"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__display_name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__display_name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__display_name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__document_ids
+msgid "Document"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__document_type_id
+msgid "Document Type"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.ui.menu,name:trilab_jpk_transfer.jpk_document_type_menu
+msgid "Document Types"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.ui.menu,name:trilab_jpk_transfer.jpk_document_menu
+msgid "Documents"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__state__draft
+#, python-format
+msgid "Draft"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_kanban
+msgid "Dropdown menu"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__error_description
+msgid "Error Description"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "File %s has too long name, maximum is %d"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "File %s has too short name, minimum is %d"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__zip_file_id_datas
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__file_part_id_datas
+msgid "File Content"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__file_part_ids
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__file_part_id
+msgid "File Part"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_ir_attachment__full_path
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_mrp_document__full_path
+msgid "Full Path"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_form
+msgid "Get Transfer Status"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_ir_attachment__hash
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_mrp_document__hash
+msgid "Hash"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__id
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__id
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__id
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__id
+msgid "ID"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_needaction
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_has_error
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__initial_response
+msgid "Initial Response"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__iv
+msgid "Initialization Vector - IV"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__jpk_type__jpk
+#, python-format
+msgid "JPK - documents sent cyclically"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_document.py:0
+#: model:ir.model,name:trilab_jpk_transfer.model_jpk_document
+#, python-format
+msgid "JPK Document"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.actions.act_window,name:trilab_jpk_transfer.jpk_document_type_action
+msgid "JPK Document Types"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.actions.act_window,name:trilab_jpk_transfer.jpk_document_action
+msgid "JPK Documents"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_file_part.py:0
+#: model:ir.model,name:trilab_jpk_transfer.model_jpk_file_part
+#, python-format
+msgid "JPK File Part"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MF_PUBLIC_KEY_ID_datas
+msgid "JPK MF Public Key"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MF_PUBLIC_KEY_ID_name
+msgid "JPK MF Public Key Filename"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_settings.py:0
+#: model:ir.actions.act_window,name:trilab_jpk_transfer.jpk_settings_action
+#: model:ir.model,name:trilab_jpk_transfer.model_jpk_settings
+#, python-format
+msgid "JPK Settings"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model,name:trilab_jpk_transfer.model_jpk_transfer
+#, python-format
+msgid "JPK Transfer"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.actions.act_window,name:trilab_jpk_transfer.jpk_transfer_action
+msgid "JPK Transfers"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__jpk_type__jpkah
+#, python-format
+msgid "JPKAH - ad-hoc sending of documents during inspection"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_ENCRYPTION_FILE_BLOCK_SIZE
+msgid "Jpk Encryption File Block Size"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_ENCRYPTION_FILE_IV_SIZE
+msgid "Jpk Encryption File Iv Size"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_ENCRYPTION_FILE_KEY_SIZE
+msgid "Jpk Encryption File Key Size"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MAX_CHUNK_SIZE
+msgid "Jpk Max Chunk Size"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MAX_FILENAME_LENGTH
+msgid "Jpk Max Filename Length"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MF_PUBLIC_KEY_ID
+msgid "Jpk Mf Public Key Id"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__JPK_MIN_FILENAME_LENGTH
+msgid "Jpk Min Filename Length"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__jpk_type
+msgid "Jpk Type"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__last_description
+msgid "Last Description"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document____last_update
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part____last_update
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings____last_update
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__write_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__write_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__write_uid
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__write_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__write_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__write_date
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_settings__name
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__name
+msgid "Name"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__original_file_id
+msgid "Original File"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__original_file_id_datas
+msgid "Original File Data"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__original_file_id_name
+msgid "Original File Filename"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__part_number
+msgid "Part Number"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__reference_number
+msgid "Reference Number"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__secret_key
+msgid "Secret Key"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "Selected files do not have unique file names!"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model_terms:ir.ui.view,arch_db:trilab_jpk_transfer.jpk_transfer_form
+msgid "Send Initial Request"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__state__sent
+#, python-format
+msgid "Sent to IRS"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__settings_id
+#: model:ir.ui.menu,name:trilab_jpk_transfer.menu_jpk_settings_menu
+msgid "Settings"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__signed_metadata_id
+msgid "Signed Metadata"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__signed_metadata_id_datas
+msgid "Signed Metadata Data"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__signed_metadata_id_name
+msgid "Signed Metadata Filename"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_ir_attachment__size
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_mrp_document__size
+msgid "Size"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__state
+msgid "State"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__file_part_id_name
+msgid "Tmp Name"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#: model:ir.model.fields.selection,name:trilab_jpk_transfer.selection__jpk_transfer__state__to_sign
+#, python-format
+msgid "To Sign"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__transfer_id
+msgid "Transfer"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__transfer_document_id
+msgid "Transfer Document"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__transfer_state
+msgid "Transfer State"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.ui.menu,name:trilab_jpk_transfer.jpk_transfer_menu
+msgid "Transfers"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__unsigned_metadata_id
+msgid "Unsigned Metadata"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__unsigned_metadata_id_datas
+msgid "Unsigned Metadata Data"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__unsigned_metadata_id_name
+msgid "Unsigned Metadata Filename"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_file_part__uploaded
+msgid "Uploaded"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_transfer__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,help:trilab_jpk_transfer.field_jpk_transfer__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "You can only archive confirmed and declined JPK Transfers."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: code:addons/trilab_jpk_transfer/models/jpk_transfer.py:0
+#, python-format
+msgid "You can only delete declined JPK Transfers."
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__zip_file_id_name
+msgid "ZIP File Name"
+msgstr ""
+
+#. module: trilab_jpk_transfer
+#: model:ir.model.fields,field_description:trilab_jpk_transfer.field_jpk_document__zip_file_id
+msgid "Zip File"
+msgstr ""

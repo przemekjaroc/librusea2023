@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="jpk_transfer_kanban" model="ir.ui.view">
+        <field name="name">jpk_transfer_kanban</field>
+        <field name="model">jpk.transfer</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="state">
+                <field name="color"/>
+                <field name="name"/>
+                <field name="activity_ids"/>
+                <field name="activity_state"/>
+                <field name="message_needaction_counter"/>
+
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_content #{kanban_color(record.color.raw_value)} oe_kanban_global_click o_has_icon">
+                            <div class="o_kanban_primary_left">
+                                <div class="o_primary">
+                                    <b>
+                                        <field name="name"/>
+                                    </b>
+                                    <br/>
+                                    <field name="create_uid"/>
+                                    <br/>
+                                    <field name="create_date"/>
+                                </div>
+                            </div>
+                            <div class="o_dropdown_kanban dropdown" groups="base.group_user">
+                                <a role="button" class="dropdown-toggle o-no-caret btn" data-toggle="dropdown" href="#"
+                                   aria-label="Dropdown menu" title="Dropdown menu">
+                                    <span class="fa fa-ellipsis-v"/>
+                                </a>
+                                <div class="dropdown-menu" role="menu">
+                                    <ul class="oe_kanban_colorpicker" data-field="color"/>
+                                </div>
+                            </div>
+                            <div class="o_kanban_record_bottom">
+                                <div class="oe_kanban_bottom_left">
+                                    <div class="o_kanban_inline_block">
+                                        <field name="activity_ids" widget="kanban_activity"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="jpk_transfer_tree" model="ir.ui.view">
+        <field name="name">jpk_transfer_tree</field>
+        <field name="model">jpk.transfer</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="reference_number"/>
+                <field name="settings_id"/>
+                <field name="confirmation_id" invisible="1"/>
+                <field name="confirmation_id_datas" widget="binary" filename="confirmation_id_name"/>
+                <field name="confirmation_id_name" invisible="1"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="jpk_transfer_form" model="ir.ui.view">
+        <field name="name">jpk_transfer_form</field>
+        <field name="model">jpk.transfer</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="create_transfer_request" string="Create Transfer Request" type="object"
+                            attrs="{'invisible': ['|', ('state', '!=', 'draft'), ('document_ids', '=', [])]}"
+                            class="oe_highlight oe_read_only"/>
+                    <button name="send_initial_request" string="Send Initial Request" type="object"
+                            attrs="{'invisible': ['|', ('state', '!=', 'to_sign'), ('signed_metadata_id', '=', False)]}"
+                            class="oe_highlight oe_read_only"/>
+                    <button name="get_request_status" string="Get Transfer Status" type="object"
+                            attrs="{'invisible': [('state', '!=', 'sent')]}" class="oe_highlight oe_read_only"/>
+                    <button name="move_to_declined" string="Decline transfer" type="object"
+                            attrs="{'invisible': [('state', 'in', ['sent', 'confirmed', 'declined'])]}"
+                            class="oe_read_only"
+                            confirm="Are you sure you want to decline this transfer? This action cannot be undone."/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box"
+                         attrs="{'invisible': [('state', 'not in', ['confirmed', 'declined'])]}">
+                        <button name="toggle_active" type="object" groups="base.group_user"
+                                class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button"
+                                   options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+                    <label for="name"/>
+                    <h1>
+                        <field name="name" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                    </h1>
+                    <group>
+                        <group>
+                            <field name="settings_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="jpk_type" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="unsigned_metadata_id" invisible="1"/>
+                            <field name="unsigned_metadata_id_datas" widget="binary"
+                                   filename="unsigned_metadata_id_name"
+                                   attrs="{'invisible': [('unsigned_metadata_id', '=', False)]}"/>
+                            <field name="unsigned_metadata_id_name" invisible="1"/>
+                            <field name="signed_metadata_id" invisible="1"/>
+                            <field name="signed_metadata_id_datas" widget="binary" filename="signed_metadata_id_name"
+                                   attrs="{'invisible': [('state', '=', 'draft')], 'readonly': [('state', '!=', 'to_sign')]}"/>
+                            <field name="signed_metadata_id_name" invisible="1"/>
+                            <field name="initial_response" invisible="1"/>
+                            <field name="confirmation_id" invisible="1"/>
+                            <field name="confirmation_id_datas" widget="binary" filename="confirmation_id_name"
+                                   attrs="{'invisible': [('confirmation_id', '=', False)]}"/>
+                            <field name="confirmation_id_name" invisible="1"/>
+                            <field name="secret_key" invisible="1"/>
+                            <field name="error_description" attrs="{'invisible': [('error_description', '=', False)]}"
+                                   readonly="1"/>
+                            <field name="reference_number" attrs="{'invisible': [('reference_number', '=', False)]}"
+                                   readonly="1"/>
+                            <field name="reference_document" attrs="{'invisible': [('reference_document', '=', False)]}"
+                                   readonly="1"/>
+                        </group>
+                        <group/>
+                    </group>
+                    <label for="document_ids"/>
+                    <field name="document_ids" required="1" attrs="{'readonly': [('state', '!=', 'draft')]}">
+                        <tree>
+                            <field name="name"/>
+                            <field name="document_type_id"/>
+                            <field name="original_file_id_datas" widget="binary" filename="original_file_id_name"/>
+                            <field name="is_valid" />
+                            <field name="original_file_id" invisible="1"/>
+                            <field name="original_file_id_name" invisible="1"/>
+                        </tree>
+                    </field>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+                    <field name="activity_ids" widget="mail_activity"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+</odoo>

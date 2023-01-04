@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="jpk_transfer_action" model="ir.actions.act_window">
+        <field name="name">JPK Transfers</field>
+        <field name="res_model">jpk.transfer</field>
+        <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+    <record id="jpk_document_action" model="ir.actions.act_window">
+        <field name="name">JPK Documents</field>
+        <field name="res_model">jpk.document</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="jpk_document_type_action" model="ir.actions.act_window">
+        <field name="name">JPK Document Types</field>
+        <field name="res_model">jpk.document.type</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="jpk_settings_action" model="ir.actions.act_window">
+        <field name="name">JPK Settings</field>
+        <field name="res_model">jpk.settings</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Transfers" id="jpk_transfer_menu" sequence="10" action="jpk_transfer_action"
+              parent="trilab_jpk_base.jpk_main_menu"
+              groups="trilab_jpk_base.jpk_user,trilab_jpk_base.jpk_user_see_all,trilab_jpk_base.jpk_manager"/>
+    <menuitem name="Documents" id="jpk_document_menu" sequence="20" action="jpk_document_action"
+              parent="trilab_jpk_base.jpk_main_menu"
+              groups="trilab_jpk_base.jpk_user,trilab_jpk_base.jpk_user_see_all,trilab_jpk_base.jpk_manager"/>
+    <menuitem name="Document Types" id="jpk_document_type_menu" sequence="40" action="jpk_document_type_action"
+              parent="trilab_jpk_base.jpk_main_menu" groups="trilab_jpk_base.jpk_manager"/>
+    <menuitem name="Settings" id="menu_jpk_settings_menu" sequence="50" action="jpk_settings_action"
+              parent="trilab_jpk_base.jpk_main_menu" groups="trilab_jpk_base.jpk_manager"/>
+
+</odoo>
